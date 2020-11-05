@@ -1,0 +1,6 @@
+{
+  "server": "gs0.salesforce.com",
+  "username": "theuser@force.com",
+  "password": "thepassword",
+  "integrationClassesPrefix": ""
+}

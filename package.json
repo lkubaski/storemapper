@@ -1,0 +1,21 @@
+{
+  "scripts": {
+    "flow": "flow",
+    "start": "qode ./src/index.js",
+    "debug": "qode --inspect src/index.js",
+    "packer-init": "npx nodegui-packer --init StoreMapper",
+    "packer-pack": "npx nodegui-packer --pack ./src"
+  },
+  "dependencies": {
+    "@nodegui/nodegui": "http://master-release.nodegui.org",
+    "readline-sync": "^1.4.10"
+  },
+  "_": "packer 1.4.1 requires MacOs 10.15 (I have 10.14.6)",
+  "devDependencies": {
+    "@nodegui/packer": "1.4.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "native-addon-loader": "^2.0.1",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
+  }
+}

@@ -1,0 +1,8 @@
+.idea/
+deploy/
+dist/
+node_modules/
+output/
+.DS_Store
+package-lock.json
+config.json
